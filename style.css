@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 2px solid #1b1319;
     padding-bottom: 15px;
     margin-bottom: 20px;
 }
@@ -32,12 +32,12 @@ header {
     border-radius: 50%;
     object-fit: cover;
     margin-right: 15px;
-    border: 2px solid #007BFF;
+    border: 2px solid #0f6f7a;
 }
 
 .header-text h1 {
     margin: 0;
-    color: #007BFF;
+    color: #10305381;
 }
 
 .header-text p {
@@ -70,10 +70,11 @@ ul {
 .skills {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 .skills li {
-    background-color: #007BFF;
+    background-color: #01040718;
     color: #fff;
     padding: 5px 10px;
     margin: 5px;
@@ -91,7 +92,7 @@ ul {
 .education-item h3,
 .project-item h3 {
     margin: 0;
-    color: #007BFF;
+    color: #710b41;
 }
 
 .experience-item p,
@@ -113,11 +114,11 @@ footer {
 
 .signature-block p {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .signature {
-    font-family: "Brush Script MT", cursive;
+    font-family: "Brush Script MT";
     font-size: 18px;
-    color: #007BFF;
+    color: #3b0535;
 }
