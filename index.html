@@ -4,93 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My New Website</title>
-    <link rel="stylesheet" href="sytle.css">
-
+    <title>Software Engineer Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="card header-card">
-        <div>
-            <img src="image2.png" alt="my image">
-            <style>
-                .header-card {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-                
-                .header-card img {
-                    width: 120px;
-                    height: 120px;
-                    border-radius: 50%;
-                    border: 3px solid rgba(255, 255, 255, 0.6);
-                    object-fit: cover;
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-                }
-            </style>
+    <div class="resume-container">
+        <header>
+            <div class="header-left">
+                <img src="image2.png" alt="Tanya Kumari" class="profile-img">
+                <style>
+                    .header-card {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .header-card img {
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                        border: 3px solid rgba(255, 255, 255, 0.6);
+                        object-fit: cover;
+                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+                    }
+                </style>
+                <div class="header-text">
+                    <h1>Tanya Kumari</h1>
+                    <p>Software Engineer</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <p>Email: tanyafrnds@gmail.com</p>
+                <p>Phone: +91 6299121910 </p>
+                <p>Location: Kolkata, India</p>
 
-
-
-            <h1>welcome to My Website</h1>
-            <h1>Tanya Kumari</h1>
-            <p>Email: tanyafrnds@gmail.com | Phone: +91-6299121910 | Location: Kolkata, India</p>
-            <hr>
-
-            <div class="section">
-                <h2>Career Objective</h2>
-                <p>A motivated and detail-oriented Software Engineer fresher with MCA (2022). Skilled in Python, SQL, Java, React, Html,Css,Java Script. Looking for an opportunity to apply my skills in building scalable applications and contributing to business
-                    growth.
+                <p> <a href="https://github.com/tanyakumari18">GitHub</a>
+                    <a href="https://www.linkedin.com/in/tanya-kumari-1715b8178/">LinkedIn</a>
                 </p>
             </div>
-            <hr>
+        </header>
 
-            <div class="section">
-                <h2>Education</h2>
-                <p><strong>Postgraduate </strong>Master of Computer Applications (MCA) ,2022</p>
-                <p><strong>Undergraduate </strong>Bachelor of Computer Applications (BCA) ,2019</p>
-                <p><strong>Higher Secondary (12th)</strong>[Millia Convent English School, Rambagh, Purnea], [Central Board of Secondary Education (CBSE)], 2015</p>
-                <p><strong>Secondary (10th)</strong>[Millia Convent English School, Rambagh, Purnea], [Central Board of Secondary Education (CBSE)], 2013</p>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Passionate Software Engineer with experience in building web applications using Python, React, and SQL. Skilled in problem-solving, teamwork, and delivering high-quality code.</p>
+        </section>
 
-            </div>
-            <hr>
-            <div class="section">
-                <h2>Technical Skills</h2>
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML / CSS</li>
+                <li>SQL & Databases</li>
+
+            </ul>
+        </section>
+        <!-- Strengths -->
+        <section>
+            <h2>Strengths</h2>
+            <ul>
+                <li>Quick learner and adaptable to new technologies</li>
+                <li>Strong problem-solving and analytical skills</li>
+                <li>Good communication and teamwork abilities</li>
+                <li>Attention to detail and quality-driven mindset</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Intern - Salesforce Developer</h3>
+                <p>Nav soft , Kolkata | Dec 2021 - May 2022</p>
                 <ul>
-                    <li>Programming: Python, Java, SQL</li>
-                    <li>Web Development: HTML, CSS, React.js</li>
-                    <li>Data Tools: MS Excel</li>
+                    <li>Developed frontend features using React and integrated with backend APIs.</li>
+                    <li>Assisted in database management using SQL.</li>
+                    <li>Collaborated with team members for efficient project delivery.</li>
                 </ul>
             </div>
-            <hr>
+        </section>
 
-            <div class="section">
-                <h2>Projects</h2>
-                <p><strong>Leave Management System</strong></p>
-                <ul>
-                    <li>Designed system workflow and testing modules.</li>
-                    <li>Implemented role-based access and leave approval process.</li>
-                </ul>
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Postgraduate </strong>Master of Computer Applications (MCA) ,2022</p>
+            <p><strong>Undergraduate </strong>Bachelor of Computer Applications (BCA) ,2019</p>
+            <p><strong>Higher Secondary (12th)</strong>[Millia Convent English School, Rambagh, Purnea], [Central Board of Secondary Education (CBSE)], 2015</p>
+            <p><strong>Secondary (10th)</strong>[Millia Convent English School, Rambagh, Purnea], [Central Board of Secondary Education (CBSE)], 2013</p>
+
+        </div>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Leave Management System</h3>
+                <p>Built a web application for managing employee leave requests using Python, HTML, CSS, and SQL.</p>
             </div>
-            <hr>
-
-            <div class="section">
-                <h2>Strengths</h2>
-                <ul>
-                    <li>Quick learner</li>
-                    <li>Strong problem-solving</li>
-                    <li>Team player </li>
-                </ul>
-            </div>
-            <hr>
-
-            <div class="section">
-
-                <p> <a href="https://github.com/tanyakumari18">GitHub</a> | <a href="https://www.linkedin.com/in/tanya-kumari-1715b8178/">LinkedIn</a></p>
-            </div>
-            <hr>
 
 
-            <script src="script.js"></script>
+            <!-- Signature -->
+            <footer>
+                <div class="signature-block">
+                    <p>Date: <span id="today-date"></span></p>
+                    <p>Signature: <span class="signature">Tanya Kumari</span></p>
+                </div>
+            </footer>
+    </div>
 
+    <script>
+        // Auto insert today’s date
+        const today = new Date();
+        document.getElementById("today-date").textContent = today.toLocaleDateString();
+    </script>
 </body>
+
+</html>

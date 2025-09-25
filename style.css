@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #007BFF;
+}
+
+.header-text h1 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.header-text p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.header-right p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.experience-item,
+.education-item,
+.project-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h3,
+.education-item h3,
+.project-item h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.experience-item p,
+.education-item p,
+.project-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+/* Signature */
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.signature-block p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.signature {
+    font-family: "Brush Script MT", cursive;
+    font-size: 18px;
+    color: #007BFF;
+}
